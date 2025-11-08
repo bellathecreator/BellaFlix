@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Isabella Gimenes | Portfólio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Conheça a desenvolvedora</h1>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="../index.html">Voltar ao BellaFlix</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="../img/isabella.jpeg" alt="minha foto">
+  <div class="hero-text">
+    <h1>Isabella <span>Gimenes</span></h1>
+    <h2>Olá, eu sou <span class="digitando" id="digitando"></span></h2>
+    <p>Gosto de programar, criar interfaces bonitas, aprender coisas novas e explorar tudo que envolve tecnologia e design.</p>
+    <button class="btn" onclick="document.getElementById('projetos').scrollIntoView({behavior:'smooth'})">Ver Projetos</button>
+  </div>
+</section>
+
+<section id="sobre">
+  <h2>Sobre Mim</h2>
+  <p>Tenho 15 anos, estudo no Germinare Tech e sou apaixonada por tecnologia. Gosto muito de aprender coisas novas e explorar diferentes áreas da TI. Meu sonho é fazer faculdade no Canadá e seguir carreira como desenvolvedora full stack ou analista de dados, trabalhando com inovação e desafios reais.</p>
+</section>
+
+<section id="skills">
+  <h2>Minhas Skills</h2>
+  <p>O que estou aprendendo e praticando:</p>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>HTML & CSS</h3>
+      <p>Criação de layouts modernos e responsivos, com foco em estrutura e harmonia visual.</p>
+    </div>
+    <div class="skill-card">
+      <h3>JavaScript</h3>
+      <p>Criação de interações dinâmicas e intuitivas, aprimorando a experiência do usuário com animações, filtros e funcionalidades inteligentes.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Java</h3>
+      <p>Orientação a objetos, DAO e servlets em projetos acadêmicos com banco de dados.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Python</h3>
+      <p>Desenvolvimento de scripts e automações, com foco em lógica, tratamento de dados e integração com diferentes sistemas.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Git & Versionamento</h3>
+      <p>Organização de código, commits e colaboração em repositórios estudantis.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Design & Figma</h3>
+      <p>Prototipagem de telas e identidade visual com cores suaves e interface agradável.</p>
+    </div>
+    <div class="skill-card">
+      <h3>PostgresSQL</h3>
+      <p>Modelagem e gerenciamento de bancos de dados relacionais, com foco em consultas SQL, chaves estrangeiras, views e boas práticas de desempenho.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <h2>Projetos</h2>
+  <div class="projects">
+    <div class="project-card">
+      <img src="../img/involucre.jpeg" alt="Projeto 1">
+      <div>
+        <h3>Projeto Interdisciplinar - Involucre</h3>
+        <p>Um software desenvolvido para gestão dos descartes de embalagens, aumentando a sustentabilidade nas indústrias.</p>
+        <a href="https://seu-link-do-involucre.com" target="_blank" class="btn-projeto">Ver projeto</a>
+      </div>
+    </div>
+  
+    <div class="project-card">
+      <img src="../img/bellaflix.png" alt="Projeto 2">
+      <div>
+        <h3>BellaFlix + Portfólio</h3>
+        <p>Atividade da disciplina de Desenvolvimento, onde foi designado para fazer um site de filmes junto de um portfólio pessoal.</p>
+        <a href="https://seu-link-do-bellaflix.com" target="_blank" class="btn-projeto">Ver projeto</a>
+      </div>
+    </div>
+  </div>  
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <div class="contact">
+    <a href="mailto:isabella.gimenes@germinare.org.br" target="_blank">E-mail</a>
+    <a href="https://github.com/bellathecreator" target="_blank">GitHub</a>
+  </div>
+</section>
+
+<footer>© Bellameba 2025 — Portfólio</footer>
+<script src="../js/portfolio.js"></script>
+</body>
+</html>
