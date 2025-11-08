@@ -28,6 +28,6 @@ form.addEventListener("submit", function (e) {
 
   // Redireciona para o portfólio (ajuste o caminho se necessário)
   setTimeout(() => {
-    window.location.href = "./catalogo/index.html";
+    window.location.href = "./catalogo/catalogo.html";
   }, 800);
 });
