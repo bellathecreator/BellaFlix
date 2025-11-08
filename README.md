@@ -1,7 +1,7 @@
 <h1 align="center">🎬 BellaFlix ✦</h1>
 
 <p align="center">
-  <b>Um catálogo de filmes com estilo e tecnologia ✧ desenvolvido por Elle</b><br>
+  <b>Um catálogo de filmes com estilo e tecnologia ✧ desenvolvido por Bellameba</b><br>
   Interface inspirada em plataformas de streaming e foco total em experiência do usuário.
 </p>
 
