@@ -8,6 +8,10 @@
     --radius: 16px;
     --transition: 0.25s ease;
     --font: "Poppins", sans-serif;
+    --pink-dark: #d93e8b;
+    --border-soft: rgba(255, 255, 255, 0.1);
+    --radius-xl: 22px;
+    --shadow-soft: 0 12px 36px rgba(0, 0, 0, 0.45);
 }
 
 * {
@@ -172,6 +176,52 @@ section p{
     color: var(--muted);
     margin-bottom: 22px;
 }
+
+.extra-section {
+    background: var(--card);
+    color: var(--text);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius-xl);
+    padding: 28px;
+    margin-top: 24px;
+    box-shadow: var(--shadow);
+    animation: fadeIn .4s ease;
+}
+  
+.extra-section h3 {
+    color: var(--accent);
+    margin-top: 18px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+  
+.extra-section p {
+    line-height: 1.7;
+    margin-top: 8px;
+}
+  
+.extra-section ol,
+.extra-section ul {
+    margin-left: 22px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+  
+.extra-section li {
+    margin-bottom: 6px;
+}
+  
+.extra-section hr {
+    border: none;
+    border-top: 1px solid var(--border-soft);
+    margin: 18px 0;
+}
+  
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+  
 
 .skills-grid{
     display:grid;
